@@ -122,7 +122,7 @@ TEST_CASE("round trip compression - gzip")
 
 TEST_CASE("test decompression size limit")
 {
-    std::string filename("./test/data/highly_compressed.gz");
+    std::string filename("../test/data/highly_compressed.gz");
     std::ifstream stream(filename, std::ios_base::in | std::ios_base::binary);
     if (!stream.is_open())
     {

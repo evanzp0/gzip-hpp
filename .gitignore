@@ -6,3 +6,5 @@ build
 .toolchain
 .mason
 local.env
+/cmake-build-debug/
+/.idea/*
